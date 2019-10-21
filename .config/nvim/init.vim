@@ -60,6 +60,16 @@ nmap <leader>q :NERDTreeToggle<CR>
 
 " Configuración general dedded
 
+" insertar espacios cuando se presiona TAB
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+
+"show a ruler with line number
+set ruler
+
 " autoclosing brackets
 inoremap " ""<left>
 inoremap ' ''<left>
