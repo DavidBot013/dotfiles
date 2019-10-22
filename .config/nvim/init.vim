@@ -7,11 +7,7 @@ Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'itchyny/lightline.vim'
-Plug 'SirVer/ultisnips' | Plug 'phux/vim-snippets' 
-Plug 'ncm2/ncm2' |Plug 'roxma/nvim-yarp'
-Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
-Plug 'phpactor/ncm2-phpactor', {'for': 'php'}
-Plug 'ncm2/ncm2-ultisnips'
+Plug 'Shougo/deoplete.vim', { 'do': ':UpdateRemotePlugins'} | Plug 'roxma/nvim-yarp'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-commentary'
 Plug 'StanAngeloff/php.vim'
@@ -30,34 +26,11 @@ let g:lightline = {
 colo gruvbox
 set background=dark
 " Configuración de ultisnips
-let g:UltiSnipsExpandTrigger="<c-s>"
-let g:UltiSnipsJumpForwardTrigger="<c-j>"
-let g:UltiSnipsJumpBackwardTrigger="<c-b>"
-
-" PHP7
-
-let g:ultisnips_php_scalar_types = 1
-"Fin configuración ultisnips
-
-" Configuracion para phpactor/ncm2-phpactor
-augroup ncm2
-	au!
-	" this one is which you're most likely to use?
-	autocmd BufEnter * call ncm2#enable_for_buffer()
-	au User Ncm2PopupOpen set completeopt=noinsert,menuone,noselect
-	au User Ncm2PopupClose set completeopt=menuone
-augroup end
-
-" param expansion for selected entry via Entej
-inoremap <silent> <expr> <CR> (pumvisible() ? ncm2_ultisnips#expand_or("\<CR>", 'n') : "\<CR>")
-
-" cycle through completion entries with tab/shift+tab
-inoremap <expr> <TAB> pumvisible() ? "\<c-n>" : "\<TAB>"
-inoremap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<TAB>"
 " Keybind para abrir el navegador cuando se presiona <leader> y 'q'
 " mientras se este en el modo normal.
 nmap <leader>q :NERDTreeToggle<CR>
-
+"conf deoplete
+let g:deoplete#enable_at_startup=1
 " Configuración general dedded
 
 " insertar espacios cuando se presiona TAB
@@ -76,3 +49,5 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
+
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
