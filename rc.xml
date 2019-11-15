@@ -199,7 +199,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>termite</command>
+        <command>xterm</command>
       </action>
     </keybind>
     <keybind key="W-q">
