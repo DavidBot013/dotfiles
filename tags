@@ -1,0 +1,459 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+"	init.vim	/^inoremap " ""<left>$/;"	m
+'	init.vim	/^inoremap ' ''<left>$/;"	m
+(	init.vim	/^inoremap ( ()<left>$/;"	m
+<leader>q	init.vim	/^nmap <leader>q :NERDTreeToggle<CR>$/;"	m
+[	init.vim	/^inoremap [ []<left>$/;"	m
+g:deoplete#enable_at_startup	init.vim	/^let g:deoplete#enable_at_startup=1$/;"	v
+g:deoplete#sources	init.vim	/^let g:deoplete#sources = {}$/;"	v
+g:deoplete#sources	init.vim	/^let g:deoplete#sources.php = ['omni', 'phpactor']$/;"	v
+g:lightline	init.vim	/^let g:lightline = {$/;"	v
+mapleader	init.vim	/^let mapleader = "ñ" $/;"	v
+ns18e5dcb90101	rc.xml	/^<openbox_config xmlns="http:\/\/openbox.org\/3.4\/rc" xmlns:xi="http:\/\/www.w3.org\/2001\/XIncl/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90201	rc.xml	/^  <resistance>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90301	rc.xml	/^    <strength>10<\/strength>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90401	rc.xml	/^    <screen_edge_strength>20<\/screen_edge_strength>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90501	rc.xml	/^  <focus>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90601	rc.xml	/^    <focusNew>yes<\/focusNew>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90701	rc.xml	/^    <followMouse>no<\/followMouse>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90801	rc.xml	/^    <focusLast>yes<\/focusLast>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90901	rc.xml	/^    <underMouse>no<\/underMouse>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90a01	rc.xml	/^    <focusDelay>200<\/focusDelay>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90b01	rc.xml	/^    <raiseOnFocus>no<\/raiseOnFocus>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90c01	rc.xml	/^  <placement>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90d01	rc.xml	/^    <policy>Smart<\/policy>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90e01	rc.xml	/^    <center>yes<\/center>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb90f01	rc.xml	/^    <monitor>Primary<\/monitor>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910001	rc.xml	/^      <mousebind button="Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91001	rc.xml	/^    <primaryMonitor>1<\/primaryMonitor>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910101	rc.xml	/^        <action name="Move"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910201	rc.xml	/^      <mousebind button="Left" action="DoubleClick">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910301	rc.xml	/^        <action name="ToggleMaximize"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910401	rc.xml	/^      <mousebind button="Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910501	rc.xml	/^        <action name="if">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910601	rc.xml	/^          <shaded>no<\/shaded>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910701	rc.xml	/^          <then>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910801	rc.xml	/^            <action name="Shade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910901	rc.xml	/^            <action name="FocusToBottom"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910a01	rc.xml	/^            <action name="Unfocus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910b01	rc.xml	/^            <action name="Lower"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910c01	rc.xml	/^      <mousebind button="Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910d01	rc.xml	/^        <action name="if">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910e01	rc.xml	/^          <shaded>yes<\/shaded>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb910f01	rc.xml	/^          <then>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911001	rc.xml	/^            <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91101	rc.xml	/^  <theme>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911101	rc.xml	/^            <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911201	rc.xml	/^    <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911301	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911401	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911501	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911601	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911701	rc.xml	/^      <mousebind button="Middle" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911801	rc.xml	/^        <action name="Lower"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911901	rc.xml	/^        <action name="FocusToBottom"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911a01	rc.xml	/^        <action name="Unfocus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911b01	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911c01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911d01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911e01	rc.xml	/^        <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb911f01	rc.xml	/^          <menu>client-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912001	rc.xml	/^    <context name="Top">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91201	rc.xml	/^    <name>Dyne<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912101	rc.xml	/^      <mousebind button="Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912201	rc.xml	/^        <action name="Resize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912301	rc.xml	/^          <edge>top<\/edge>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912401	rc.xml	/^    <context name="Left">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912501	rc.xml	/^      <mousebind button="Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912601	rc.xml	/^        <action name="Resize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912701	rc.xml	/^          <edge>left<\/edge>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912801	rc.xml	/^    <context name="Right">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912901	rc.xml	/^      <mousebind button="Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912a01	rc.xml	/^        <action name="Resize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912b01	rc.xml	/^          <edge>right<\/edge>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912c01	rc.xml	/^    <context name="Bottom">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912d01	rc.xml	/^      <mousebind button="Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912e01	rc.xml	/^        <action name="Resize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb912f01	rc.xml	/^          <edge>bottom<\/edge>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913001	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91301	rc.xml	/^    <titleLayout>IMC<\/titleLayout>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913101	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913201	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913301	rc.xml	/^        <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913401	rc.xml	/^          <menu>client-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913501	rc.xml	/^    <context name="TRCorner BRCorner TLCorner BLCorner">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913601	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913701	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913801	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913901	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913a01	rc.xml	/^      <mousebind button="Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913b01	rc.xml	/^        <action name="Resize"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913c01	rc.xml	/^    <context name="Client">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913d01	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913e01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb913f01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914001	rc.xml	/^      <mousebind button="Middle" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91401	rc.xml	/^    <keepBorder>no<\/keepBorder>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914101	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914201	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914301	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914401	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914501	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914601	rc.xml	/^    <context name="Icon">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914701	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914801	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914901	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914a01	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914b01	rc.xml	/^        <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914c01	rc.xml	/^          <menu>client-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914d01	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914e01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb914f01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915001	rc.xml	/^        <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91501	rc.xml	/^    <animateIconify>no<\/animateIconify>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915101	rc.xml	/^          <menu>client-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915201	rc.xml	/^    <context name="AllDesktops">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915301	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915401	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915501	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915601	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915701	rc.xml	/^      <mousebind button="Left" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915801	rc.xml	/^        <action name="ToggleOmnipresent"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915901	rc.xml	/^    <context name="Shade">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915a01	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915b01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915c01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915d01	rc.xml	/^      <mousebind button="Left" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915e01	rc.xml	/^        <action name="ToggleShade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb915f01	rc.xml	/^    <context name="Iconify">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916001	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91601	rc.xml	/^    <font place="ActiveWindow">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916101	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916201	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916301	rc.xml	/^      <mousebind button="Left" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916401	rc.xml	/^        <action name="Iconify"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916501	rc.xml	/^    <context name="Maximize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916601	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916701	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916801	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916901	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916a01	rc.xml	/^      <mousebind button="Middle" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916b01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916c01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916d01	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916e01	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb916f01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917001	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91701	rc.xml	/^      <name>sans<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917101	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917201	rc.xml	/^      <mousebind button="Left" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917301	rc.xml	/^        <action name="ToggleMaximize"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917401	rc.xml	/^      <mousebind button="Middle" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917501	rc.xml	/^        <action name="ToggleMaximize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917601	rc.xml	/^          <direction>vertical<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917701	rc.xml	/^      <mousebind button="Right" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917801	rc.xml	/^        <action name="ToggleMaximize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917901	rc.xml	/^          <direction>horizontal<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917a01	rc.xml	/^    <context name="Close">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917b01	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917c01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917d01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917e01	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb917f01	rc.xml	/^      <mousebind button="Left" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918001	rc.xml	/^        <action name="Close"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91801	rc.xml	/^      <size>8<\/size>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918101	rc.xml	/^    <context name="Desktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918201	rc.xml	/^      <mousebind button="Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918301	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918401	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918501	rc.xml	/^      <mousebind button="Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918601	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918701	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918801	rc.xml	/^      <mousebind button="A-Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918901	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918a01	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918b01	rc.xml	/^      <mousebind button="A-Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918c01	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918d01	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918e01	rc.xml	/^      <mousebind button="C-A-Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb918f01	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919001	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91901	rc.xml	/^      <weight>bold<\/weight>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919101	rc.xml	/^      <mousebind button="C-A-Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919201	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919301	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919401	rc.xml	/^      <mousebind button="Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919501	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919601	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919701	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919801	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919901	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919a01	rc.xml	/^    <context name="Root">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919b01	rc.xml	/^      <mousebind button="Middle" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919c01	rc.xml	/^        <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919d01	rc.xml	/^          <menu>client-list-combined-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919e01	rc.xml	/^      <mousebind button="Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb919f01	rc.xml	/^        <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a001	rc.xml	/^          <menu>root-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a01	rc.xml	/^      <slant>normal<\/slant>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a101	rc.xml	/^    <context name="MoveResize">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a201	rc.xml	/^      <mousebind button="Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a301	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a401	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a501	rc.xml	/^      <mousebind button="Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a601	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a701	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a801	rc.xml	/^      <mousebind button="A-Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91a901	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91aa01	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91ab01	rc.xml	/^      <mousebind button="A-Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91ac01	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91ad01	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91ae01	rc.xml	/^  <menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91af01	rc.xml	/^    <file>menu.xml<\/file>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b001	rc.xml	/^    <hideDelay>200<\/hideDelay>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b01	rc.xml	/^    <font place="InactiveWindow">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b101	rc.xml	/^    <middle>no<\/middle>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b201	rc.xml	/^    <submenuShowDelay>100<\/submenuShowDelay>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b301	rc.xml	/^    <submenuHideDelay>400<\/submenuHideDelay>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b401	rc.xml	/^    <showIcons>yes<\/showIcons>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b501	rc.xml	/^    <manageDesktops>yes<\/manageDesktops>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b601	rc.xml	/^  <applications><!--$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b701	rc.xml	/^  <application class="*"> $/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91b801	rc.xml	/^      <decor>no<\/decor>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91c01	rc.xml	/^      <name>sans<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91d01	rc.xml	/^      <size>8<\/size>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91e01	rc.xml	/^      <weight>bold<\/weight>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb91f01	rc.xml	/^      <slant>normal<\/slant>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92001	rc.xml	/^    <font place="MenuHeader">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92101	rc.xml	/^      <name>sans<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92201	rc.xml	/^      <size>9<\/size>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92301	rc.xml	/^      <weight>normal<\/weight>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92401	rc.xml	/^      <slant>normal<\/slant>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92501	rc.xml	/^    <font place="MenuItem">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92601	rc.xml	/^      <name>sans<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92701	rc.xml	/^      <size>9<\/size>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92801	rc.xml	/^      <weight>normal<\/weight>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92901	rc.xml	/^      <slant>normal<\/slant>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92a01	rc.xml	/^    <font place="ActiveOnScreenDisplay">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92b01	rc.xml	/^      <name>sans<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92c01	rc.xml	/^      <size>9<\/size>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92d01	rc.xml	/^      <weight>bold<\/weight>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92e01	rc.xml	/^      <slant>normal<\/slant>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb92f01	rc.xml	/^    <font place="InactiveOnScreenDisplay">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93001	rc.xml	/^      <name>sans<\/name>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93101	rc.xml	/^      <size>9<\/size>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93201	rc.xml	/^      <weight>bold<\/weight>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93301	rc.xml	/^      <slant>normal<\/slant>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93401	rc.xml	/^  <desktops>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93501	rc.xml	/^    <number>4<\/number>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93601	rc.xml	/^    <firstdesk>1<\/firstdesk>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93701	rc.xml	/^    <names>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93801	rc.xml	/^    <popupTime>875<\/popupTime>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93901	rc.xml	/^  <resize>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93a01	rc.xml	/^    <drawContents>yes<\/drawContents>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93b01	rc.xml	/^    <popupShow>Nonpixel<\/popupShow>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93c01	rc.xml	/^    <popupPosition>Center<\/popupPosition>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93d01	rc.xml	/^    <popupFixedPosition>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93e01	rc.xml	/^      <x>10<\/x>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb93f01	rc.xml	/^      <y>10<\/y>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94001	rc.xml	/^  <margins>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94101	rc.xml	/^    <top>0<\/top>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94201	rc.xml	/^    <bottom>0<\/bottom>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94301	rc.xml	/^    <left>0<\/left>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94401	rc.xml	/^    <right>0<\/right>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94501	rc.xml	/^  <dock>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94601	rc.xml	/^    <position>TopLeft<\/position>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94701	rc.xml	/^    <floatingX>0<\/floatingX>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94801	rc.xml	/^    <floatingY>0<\/floatingY>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94901	rc.xml	/^    <noStrut>no<\/noStrut>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94a01	rc.xml	/^    <stacking>Above<\/stacking>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94b01	rc.xml	/^    <direction>Horizontal<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94c01	rc.xml	/^    <autoHide>no<\/autoHide>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94d01	rc.xml	/^    <hideDelay>300<\/hideDelay>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94e01	rc.xml	/^    <showDelay>300<\/showDelay>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb94f01	rc.xml	/^    <moveButton>Middle<\/moveButton>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95001	rc.xml	/^  <keyboard>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95101	rc.xml	/^    <chainQuitKey>C-g<\/chainQuitKey>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95201	rc.xml	/^    <keybind key="C-A-Left">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95301	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95401	rc.xml	/^        <to>left<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95501	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95601	rc.xml	/^    <keybind key="C-A-Right">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95701	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95801	rc.xml	/^        <to>right<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95901	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95a01	rc.xml	/^    <keybind key="C-A-Up">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95b01	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95c01	rc.xml	/^        <to>up<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95d01	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95e01	rc.xml	/^    <keybind key="W-t">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb95f01	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96001	rc.xml	/^        <command>termite<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96101	rc.xml	/^    <keybind key="W-q">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96201	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96301	rc.xml	/^        <command>qterminal<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96401	rc.xml	/^    <keybind key="C-A-Down">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96501	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96601	rc.xml	/^        <to>down<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96701	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96801	rc.xml	/^    <keybind key="S-A-Left">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96901	rc.xml	/^      <action name="SendToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96a01	rc.xml	/^        <to>left<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96b01	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96c01	rc.xml	/^    <keybind key="S-A-Right">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96d01	rc.xml	/^      <action name="SendToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96e01	rc.xml	/^        <to>right<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb96f01	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97001	rc.xml	/^    <keybind key="S-A-Up">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97101	rc.xml	/^      <action name="SendToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97201	rc.xml	/^        <to>up<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97301	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97401	rc.xml	/^    <keybind key="S-A-Down">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97501	rc.xml	/^      <action name="SendToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97601	rc.xml	/^        <to>down<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97701	rc.xml	/^        <wrap>no<\/wrap>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97801	rc.xml	/^    <keybind key="W-F1">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97901	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97a01	rc.xml	/^        <to>1<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97b01	rc.xml	/^    <keybind key="W-F2">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97c01	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97d01	rc.xml	/^        <to>2<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97e01	rc.xml	/^    <keybind key="W-F3">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb97f01	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98001	rc.xml	/^        <to>3<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98101	rc.xml	/^    <keybind key="W-F4">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98201	rc.xml	/^      <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98301	rc.xml	/^        <to>4<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98401	rc.xml	/^    <keybind key="W-d">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98501	rc.xml	/^      <action name="ToggleShowDesktop"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98601	rc.xml	/^    <keybind key="A-F4">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98701	rc.xml	/^      <action name="Close"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98801	rc.xml	/^    <keybind key="A-Escape">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98901	rc.xml	/^      <action name="Lower"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98a01	rc.xml	/^      <action name="FocusToBottom"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98b01	rc.xml	/^      <action name="Unfocus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98c01	rc.xml	/^    <keybind key="A-space">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98d01	rc.xml	/^      <action name="ShowMenu">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98e01	rc.xml	/^        <menu>client-menu<\/menu>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb98f01	rc.xml	/^    <keybind key="A-Tab">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99001	rc.xml	/^      <action name="NextWindow">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99101	rc.xml	/^        <finalactions>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99201	rc.xml	/^          <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99301	rc.xml	/^          <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99401	rc.xml	/^          <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99501	rc.xml	/^    <keybind key="A-S-Tab">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99601	rc.xml	/^      <action name="PreviousWindow">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99701	rc.xml	/^        <finalactions>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99801	rc.xml	/^          <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99901	rc.xml	/^          <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99a01	rc.xml	/^          <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99b01	rc.xml	/^    <keybind key="C-A-Tab">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99c01	rc.xml	/^      <action name="NextWindow">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99d01	rc.xml	/^        <panels>yes<\/panels>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99e01	rc.xml	/^        <desktop>yes<\/desktop>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb99f01	rc.xml	/^        <finalactions>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a001	rc.xml	/^          <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a101	rc.xml	/^          <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a201	rc.xml	/^          <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a301	rc.xml	/^    <keybind key="W-S-Right">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a401	rc.xml	/^      <action name="DirectionalCycleWindows">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a501	rc.xml	/^        <direction>right<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a601	rc.xml	/^    <keybind key="W-S-Left">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a701	rc.xml	/^      <action name="DirectionalCycleWindows">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a801	rc.xml	/^        <direction>left<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9a901	rc.xml	/^    <keybind key="W-S-Up">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9aa01	rc.xml	/^      <action name="DirectionalCycleWindows">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ab01	rc.xml	/^        <direction>up<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ac01	rc.xml	/^    <keybind key="W-S-Down">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ad01	rc.xml	/^      <action name="DirectionalCycleWindows">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ae01	rc.xml	/^        <direction>down<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9af01	rc.xml	/^    <keybind key="C-A-l">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b001	rc.xml	/^      <action name="Exit">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b101	rc.xml	/^        <command>openbox --exit<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b201	rc.xml	/^    <keybind key="XF86MonBrightnessUp">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b301	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b401	rc.xml	/^        <command>xbacklight +2<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b501	rc.xml	/^    <keybind key="XF86MonBrightnessDown">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b601	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b701	rc.xml	/^        <command>xbacklight -2<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b801	rc.xml	/^    <keybind key="XF86AudioRaiseVolume">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9b901	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ba01	rc.xml	/^        <command>sh -c "pactl set-sink-mute 0 false; pactl set-sink-volume 0 +5%"<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9bb01	rc.xml	/^    <keybind key="XF86AudioLowerVolume">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9bc01	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9bd01	rc.xml	/^        <command>sh -c "pactl set-sink-mute 0 false; pactl set-sink-volume 0 -5%"<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9be01	rc.xml	/^    <keybind key="XF86AudioMute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9bf01	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c001	rc.xml	/^        <command>sh -c "pactl set-sink-mute 0 true; pactl set-sink-volume 0 0%"<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c101	rc.xml	/^    <keybind key="W-l">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c201	rc.xml	/^      <action name="Execute">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c301	rc.xml	/^        <command>rofi -show drun -font "SFNS	 Display 18" -terminal xterm<\/command>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c401	rc.xml	/^    <keybind key="W-Left">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c501	rc.xml	/^      <action name="UnmaximizeFull"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c601	rc.xml	/^      <action name="MaximizeVert"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c701	rc.xml	/^      <action name="MoveResizeTo">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c801	rc.xml	/^        <width>50%<\/width>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9c901	rc.xml	/^      <action name="MoveToEdge">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ca01	rc.xml	/^        <direction>west<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9cb01	rc.xml	/^    <keybind key="W-Right">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9cc01	rc.xml	/^      <action name="UnmaximizeFull"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9cd01	rc.xml	/^      <action name="MaximizeVert"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ce01	rc.xml	/^      <action name="MoveResizeTo">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9cf01	rc.xml	/^        <width>50%<\/width>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d001	rc.xml	/^      <action name="MoveToEdge">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d101	rc.xml	/^        <direction>east<\/direction>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d201	rc.xml	/^    <keybind key="W-Down">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d301	rc.xml	/^      <action name="Unmaximize"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d401	rc.xml	/^    <keybind key="W-Up">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d501	rc.xml	/^      <action name="Maximize"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d601	rc.xml	/^  <mouse>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d701	rc.xml	/^    <dragThreshold>1<\/dragThreshold>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d801	rc.xml	/^    <doubleClickTime>500<\/doubleClickTime>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9d901	rc.xml	/^    <screenEdgeWarpTime>0<\/screenEdgeWarpTime>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9da01	rc.xml	/^    <screenEdgeWarpMouse>false<\/screenEdgeWarpMouse>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9db01	rc.xml	/^    <context name="Frame">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9dc01	rc.xml	/^      <mousebind button="A-Left" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9dd01	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9de01	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9df01	rc.xml	/^      <mousebind button="A-Left" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e001	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e101	rc.xml	/^      <mousebind button="A-Left" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e201	rc.xml	/^        <action name="Move"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e301	rc.xml	/^      <mousebind button="A-Right" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e401	rc.xml	/^        <action name="Focus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e501	rc.xml	/^        <action name="Raise"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e601	rc.xml	/^        <action name="Unshade"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e701	rc.xml	/^      <mousebind button="A-Right" action="Drag">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e801	rc.xml	/^        <action name="Resize"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9e901	rc.xml	/^      <mousebind button="A-Middle" action="Press">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ea01	rc.xml	/^        <action name="Lower"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9eb01	rc.xml	/^        <action name="FocusToBottom"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ec01	rc.xml	/^        <action name="Unfocus"\/>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ed01	rc.xml	/^      <mousebind button="A-Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ee01	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ef01	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f001	rc.xml	/^      <mousebind button="A-Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f101	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f201	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f301	rc.xml	/^      <mousebind button="C-A-Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f401	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f501	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f601	rc.xml	/^      <mousebind button="C-A-Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f701	rc.xml	/^        <action name="GoToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f801	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9f901	rc.xml	/^      <mousebind button="A-S-Up" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9fa01	rc.xml	/^        <action name="SendToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9fb01	rc.xml	/^          <to>previous<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9fc01	rc.xml	/^      <mousebind button="A-S-Down" action="Click">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9fd01	rc.xml	/^        <action name="SendToDesktop">$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9fe01	rc.xml	/^          <to>next<\/to>$/;"	n	uri:http://openbox.org/3.4/rc
+ns18e5dcb9ff01	rc.xml	/^    <context name="Titlebar">$/;"	n	uri:http://openbox.org/3.4/rc
+xi	rc.xml	/^<openbox_config xmlns="http:\/\/openbox.org\/3.4\/rc" xmlns:xi="http:\/\/www.w3.org\/2001\/XIncl/;"	n	uri:http://www.w3.org/2001/XInclude
+{	init.vim	/^inoremap { {}<left>$/;"	m
